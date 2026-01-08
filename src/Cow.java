@@ -8,5 +8,9 @@ public class Cow extends Animal {
     public void produceSound() {
         System.out.println("Meuuhh");
     }
+
+    public int toHumanYears()  {
+        return Animal.toHumanYears(this.age, 14);
+    }
 }
 

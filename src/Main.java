@@ -3,7 +3,8 @@
 public class Main {
     public static void main(String[]  args) {
         Cow cow = new Cow("Bessie", 4);
-        System.out.println(cow.getName());
+        System.out.println("Name: " + cow.getName());
         cow.produceSound();
+        System.out.println("Human Age: " + cow.toHumanYears());
     }
 }

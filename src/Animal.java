@@ -12,4 +12,8 @@ public String getName() {
     }
 
     public void produceSound() {}
+
+    public static int toHumanYears(int animalYears, int factor) {
+        return animalYears * factor;
+    }
 }
