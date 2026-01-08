@@ -1,4 +1,4 @@
-public class Dog extends Animal {
+public class Dog extends Animal implements Pet  {
     public Dog(String name, int age) {
         super(name, age);
     }
@@ -14,5 +14,10 @@ public class Dog extends Animal {
 
     public void eat() {
         System.out.println(this.getName() + " is eating.");
+    }
+
+    @Override
+    public void play() {
+        System.out.println(this.getName() + " is playing.");
     }
 }

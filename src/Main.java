@@ -29,5 +29,7 @@ public class Main {
         //  System.out.println("Cow age: " + cow.age);
        //   System.out.println("Dog age: " + dog.age);
 
+        System.out.println("\nPlaying:");
+        dog.play();
     }
 }
