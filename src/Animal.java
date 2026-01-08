@@ -16,4 +16,6 @@ public String getName() {
     public static int toHumanYears(int animalYears, int factor) {
         return animalYears * factor;
     }
+
+    public void eat() {}
 }
