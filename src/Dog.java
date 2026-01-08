@@ -5,15 +5,14 @@ public class Dog extends Animal {
 
     @Override
     public void produceSound() {
-        System.out.println("Meuuhh");
+        System.out.println("Woof Woof");
     }
 
     public int toHumanYears()  {
         return Animal.toHumanYears(this.age, 7);
     }
 
-    @Override
     public void eat() {
-        System.out.println(this.name + " is eating.");
+        System.out.println(this.getName() + " is eating.");
     }
 }

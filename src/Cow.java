@@ -14,7 +14,7 @@ public class Cow extends Animal {
     }
 
     public  void eat() {
-        System.out.println(this.name + " is eating.");
+        System.out.println(this.getName() + " is eating.");
     }
 }
 
