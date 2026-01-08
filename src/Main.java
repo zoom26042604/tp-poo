@@ -14,5 +14,8 @@ public class Main {
 
         cow.eat();
         dog.eat();
+
+        cow.eat("Grass");
+        dog.eat("Dog Food");
     }
 }

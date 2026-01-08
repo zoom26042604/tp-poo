@@ -18,4 +18,8 @@ public String getName() {
     }
 
     public void eat() {}
+
+    public void eat(String food) {
+        System.out.println(this.name + " is eating " + food + ".");
+    }
 }

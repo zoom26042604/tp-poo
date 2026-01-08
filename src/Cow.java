@@ -9,8 +9,12 @@ public class Cow extends Animal {
         System.out.println("Meuuhh");
     }
 
-    public int toHumanYears()  {
+    public int toHumanYears() {
         return Animal.toHumanYears(this.age, 14);
+    }
+
+    public  void eat() {
+        System.out.println(this.name + " is eating.");
     }
 }
 
